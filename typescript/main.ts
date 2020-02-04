@@ -1,16 +1,14 @@
-const deg:any = 6;
-const hr:any = document.querySelector("#hr");
-const mn:any = document.querySelector("#mn");
-const sc:any = document.querySelector("#sc");
+const deg = 6;
+const hr = document.querySelector<HTMLDivElement>("#hr")!;
+const mn = document.querySelector<HTMLDivElement>("#mn")!;
+const sc = document.querySelector<HTMLDivElement>("#sc")!;
 
 setInterval(() => {
-    let day:any = new Date();
-    let hh:any = day.getHours() * 30;
-    let mm:any = day.getMinutes() * deg;
-    let ss:any = day.getSeconds() * deg;
+    let day = new Date();
+    let hh = day.getHours() * 30;
+    let mm = day.getMinutes() * deg;
+    let ss = day.getSeconds() * deg;
     hr.style.transform = `rotateZ(${hh+(mm/12)}deg)`;
     mn.style.transform = `rotateZ(${mm}deg)`;
     sc.style.transform = `rotateZ(${ss}deg)`;
 })
-
-console.log("test")

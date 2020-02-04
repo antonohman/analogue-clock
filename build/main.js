@@ -12,5 +12,4 @@ setInterval(function () {
     mn.style.transform = "rotateZ(" + mm + "deg)";
     sc.style.transform = "rotateZ(" + ss + "deg)";
 });
-console.log("test");
 //# sourceMappingURL=main.js.map
