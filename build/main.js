@@ -6,7 +6,7 @@ var sc = document.querySelector("#sc");
 setInterval(function () {
     var day = new Date();
     var hh = day.getHours() * 30;
-    var mn = day.getMinutes() * deg;
+    var mm = day.getMinutes() * deg;
     var ss = day.getSeconds() * deg;
     hr.style.transform = "rotateZ(" + (hh + (mm / 12)) + "deg)";
     mn.style.transform = "rotateZ(" + mm + "deg)";
