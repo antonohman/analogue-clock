@@ -1,0 +1,20 @@
+{
+  "name": "analogue-clock",
+  "version": "1.0.0",
+  "description": "An analogue clock.",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/antonohman/analogue-clock.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/antonohman/analogue-clock/issues"
+  },
+  "homepage": "https://github.com/antonohman/analogue-clock#readme"
+}
