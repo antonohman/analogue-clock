@@ -7,12 +7,12 @@
 body {
     display: flex;
     justify-content: center;
-    align-items: center;
     min-height: 100vh;
     background: rgb(255, 70, 70);
 }
 
 .clock {
+    margin-top: 3rem;
     width: 21.875rem;
     height: 21.875rem;
     display: flex;
